@@ -1,0 +1,4 @@
+var popClosed = async function (id) {
+  storeFormData();
+  window.location.href = window.location.pathname + `?notionId=${id}`;
+};

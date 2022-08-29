@@ -1,0 +1,14 @@
+export const REGISTER_SUCCESS = "REGISTER_SUCCESS";
+export const ALERT_SUCCESS = "ALERT_SUCCESS";
+export const ALERT_FAILURE = "ALERT_FAILURE";
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const LOGOUT = "LOGOUT";
+export const LOAD_USER = "LOAD_USER";
+export const FETCH_BOOKS = "FETCH_BOOKS";
+export const FETCH_BOOK = "FETCH_BOOK";
+export const UPDATE_BOOK_LIKES = "UPDATE_BOOK_LIKES";
+export const DELETE_BOOK = "DELETE_BOOK";
+export const ADD_COMMENT = "ADD_COMMENT";
+export const CLEAR_BOOK = "CLEAR_BOOK";
+export const UPDATE_USER = "UPDATE_USER";
+export const REMOVE_ALERT = "REMOVE_ALERT";

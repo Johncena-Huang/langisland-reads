@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <script>
+      // Variable assignment in EJS(JSON.stringify first!!!)
+      // https://stackoverflow.com/questions/38179668/passing-an-array-from-ejs-to-javascript
+      const pageArray = <%- JSON.stringify(pages) %>
+      window.addEventListener("load", (e) => {
+        if (window.opener) {
+          window.opener.postMessage(pageArray, '<%= domain %>');
+        }
+        window.close();
+      });
+    </script>
+  </body>
+</html>

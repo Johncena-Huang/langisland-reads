@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.about-title {
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.about-text {
+  font-weight: 300;
+}

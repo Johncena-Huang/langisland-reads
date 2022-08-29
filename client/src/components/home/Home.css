@@ -1,0 +1,99 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Poppins;
+}
+p {
+  font-family: Roboto;
+}
+#showcase {
+  height: calc(100vh - 91px);
+}
+#showcase img {
+  width: 70%;
+}
+#showcase h1 {
+  text-align: center;
+}
+#showcase p {
+  color: #a1a1a1;
+  font-size: 24px;
+}
+#showcase .showcase-right {
+  margin-top: 100px;
+  width: 80ch;
+}
+
+#testimonial {
+  background: #f1f1f1;
+}
+
+#testimonial img {
+  border-radius: 50%;
+}
+#testimonial p {
+  font-family: "Josefin Sans";
+  font-size: 32px;
+  color: #000;
+}
+
+#testimonial p.member {
+  font-size: 20px;
+  color: #666;
+}
+
+#sign-up {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-image: url("./images/book-form.jpg");
+  background-repeat: no-repeat;
+  background-position: 40% 40%;
+  background-size: cover;
+}
+#sign-up .sign-up-right {
+  max-width: 500px;
+}
+#sign-up h2,
+#sign-up p {
+  color: white;
+}
+#sign-up p {
+  font-size: 20px;
+}
+
+#contact {
+  color: #fff;
+  background-color: #7ea5a0;
+}
+#contact .container-fluid {
+  max-width: 1200px;
+}
+#contact .contact-info {
+  width: 60%;
+}
+.contact-info p {
+  font-size: 26px;
+}
+#contact h4 {
+  font-size: 24px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(255, 215, 50, 0.7);
+}
+#contact .logo-bottom {
+  width: 150px;
+}
+
+.fab {
+  color: #fff;
+}
+.contact-email a {
+  color: #d6e2e0;
+  font-size: 18px;
+}

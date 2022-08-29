@@ -1,0 +1,3 @@
+https://www.frontendmentor.io/solutions/interactive-comments-section-with-vanilla-js-ZB7SP_96d
+https://dev.to/up_to_nonsense/how-to-add-sign-in-with-notion-to-your-webapp-anc
+https://dev.to/robole/how-to-make-a-slick-css-animation-from-upload-tv-series-title-sequence-2h8f

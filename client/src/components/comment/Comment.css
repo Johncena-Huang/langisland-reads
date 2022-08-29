@@ -1,0 +1,66 @@
+.profile {
+  height: 2rem;
+  width: 2rem;
+}
+
+textarea {
+  resize: none;
+}
+/* reply-box */
+.comments p {
+  color: #212529;
+}
+.reply-box .profile {
+  margin-top: 1.5rem;
+  margin-right: 0.5rem;
+}
+.comment-area {
+  height: 128px;
+}
+
+.reply-box form {
+  width: 100%;
+}
+
+/* comment */
+.comment {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+.comment > .comment {
+  margin-top: 0;
+}
+.comment .profile {
+  margin-right: 0.5rem;
+}
+.comment__footer span {
+  vertical-align: middle;
+}
+.liked {
+  color: red;
+}
+/* replies-container */
+
+.replies-container {
+  position: relative;
+  margin-left: 5rem;
+}
+
+.replies-container::before {
+  content: "";
+  position: absolute;
+  left: -1rem;
+  top: 0.5rem;
+  height: calc(100% - 1rem);
+  border-left: 2px solid hsl(223, 19%, 93%);
+  /* z-index: -1; */
+}
+
+/* user */
+
+.not-login {
+  font-size: 1rem;
+  line-height: calc(128px - 1rem);
+  text-align: center;
+  text-transform: uppercase;
+}

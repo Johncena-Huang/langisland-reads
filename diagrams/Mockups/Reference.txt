@@ -1,0 +1,9 @@
+How to add Sign In with Notion to your webapp
+https://commotion.page/blog/how-to-add-sign-in-with-notion
+TinyMCE- Text Editor
+my-booktracker
+https://github.com/leyunn/my-booktracker
+Find books from Google Play Books by
+https://github.com/liyasthomas/books
+Animate.css
+https://animate.style/

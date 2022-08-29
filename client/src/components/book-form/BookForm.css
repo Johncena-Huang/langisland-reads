@@ -1,0 +1,15 @@
+.cover-frame {
+  width: 100%;
+}
+.cover-frame img {
+  height: 100%;
+  object-fit: cover;
+}
+.spinner-border {
+  position: fixed;
+  top: calc(50% - (100px / 2)); /* where ... is the element's height */
+  right: calc(50% - (100px / 2)); /* where ... is the element's width */
+  width: 100px;
+  height: 100px;
+  border-color: #78b6af transparent;
+}
