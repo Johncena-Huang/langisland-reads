@@ -52,11 +52,13 @@ const Home = () => {
   return loading ? (
     <Spinner animation="border" style={{ color: "#78b6af" }} />
   ) : (
-    <div className="home-page">
-      <ShowCase />
-      <BookCarousel bookCollection={books} />
-      <Testimonial />
-      <SignUp />
+    <div className="home-page ">
+      <div className="container-fluid">
+        <ShowCase />
+        <BookCarousel bookCollection={books} />
+        <Testimonial />
+        <SignUp />
+      </div>
       <Contact />
     </div>
   );

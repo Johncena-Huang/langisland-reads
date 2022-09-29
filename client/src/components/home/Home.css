@@ -10,10 +10,11 @@ p {
   font-family: Roboto;
 }
 #showcase {
-  height: calc(100vh - 91px);
+  min-height: calc(100vh - 91px);
 }
 #showcase img {
   width: 70%;
+  min-width: 350px;
 }
 #showcase h1 {
   text-align: center;
@@ -23,8 +24,8 @@ p {
   font-size: 24px;
 }
 #showcase .showcase-right {
-  margin-top: 100px;
-  width: 80ch;
+  /* margin-top: 100px; */
+  max-width: 80ch;
 }
 
 #testimonial {

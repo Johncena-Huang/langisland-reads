@@ -23,7 +23,7 @@ const BookCarousel = ({ bookCollection }) => {
       <Swiper
         className="container"
         spacebetween={30}
-        slidesPerView={3}
+        slidesPerView={1}
         loop={true}
         modules={[Navigation, Pagination, Autoplay]}
         navigation={true}
@@ -33,6 +33,14 @@ const BookCarousel = ({ bookCollection }) => {
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
+        }}
+        breakpoints={{
+          992: {
+            slidesPerView: 3,
+          },
+          768: {
+            slidesPerView: 2,
+          },
         }}
       >
         {renderBookSlide()}

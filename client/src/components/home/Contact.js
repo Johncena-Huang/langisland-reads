@@ -3,22 +3,13 @@ import React from "react";
 const Contact = () => {
   return (
     <section id="contact">
-      <div className="container-fluid d-flex justify-content-between align-items-center pt-5">
+      <div className="container-fluid d-flex flex-column flex-md-row justify-content-between align-items-center pt-md-5 pt-0">
         <img src="/logo-bottom.jpg" alt="logo-bottom" className="logo-bottom" />
-        <div className="contact-info lh-lg">
-          <h3>LangIsland - Then I learn</h3>
-          <p>Start your LangIsland today!</p>
-          <div className="social-media">
-            <a href="https://www.facebook.com/langisland.club">
-              <i className="fab fa-facebook-square fa-2x mx-1"></i>
-            </a>
-            <a href="https://line.me/R/ti/p/%40774fzqsw">
-              <i className="fab fa-line fa-2x mx-1"></i>
-            </a>
-            <a href="https://www.instagram.com/langisland.club/">
-              <i className="fab fa-instagram-square fa-2x mx-1"></i>
-            </a>
-          </div>
+        <div className="contact-info lh-lg text-center text-md-start">
+          <p style={{ fontSize: "24px", marginBottom: "0" }}>
+            LangIsland - Then I learn
+          </p>
+          <p style={{ fontSize: "20px" }}>Start your LangIsland today!</p>
         </div>
         <div className="contact-email">
           <h4 className="text-center">Contact Us</h4>

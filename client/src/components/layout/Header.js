@@ -12,19 +12,19 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Header = ({ isAuthenticated, logout }) => {
   const renderUser = () => {
     return (
-      <>
+      <div className="d-flex align-items-center">
         <LinkContainer to="/profile" style={{ cursor: "pointer" }}>
           <FontAwesomeIcon icon={faUser} size="2x" inverse />
         </LinkContainer>
         <Button onClick={logout} className="my-2 mx-3 my-lg-0" variant="danger">
           Logout
         </Button>
-      </>
+      </div>
     );
   };
   const renderVisitingUser = () => {
     return (
-      <Fragment>
+      <div className="d-flex align-items-center">
         <LinkContainer to="/login">
           <Button className="me-2 my-2 my-lg-0" variant="danger">
             Login
@@ -35,7 +35,7 @@ const Header = ({ isAuthenticated, logout }) => {
             Register
           </Button>
         </LinkContainer>
-      </Fragment>
+      </div>
     );
   };
   return (
@@ -43,6 +43,7 @@ const Header = ({ isAuthenticated, logout }) => {
       style={{
         backgroundColor: "#78b6af",
         height: "91px",
+        zIndex: 2,
       }}
       expand="lg"
     >
@@ -57,6 +58,12 @@ const Header = ({ isAuthenticated, logout }) => {
             />
           </Navbar.Brand>
         </LinkContainer>
+        <div
+          className="order-0 order-lg-1 ms-auto"
+          style={{ maxWidth: "fit-content" }}
+        >
+          {isAuthenticated ? renderUser() : renderVisitingUser()}
+        </div>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse
           id="basic-navbar-nav"
@@ -79,12 +86,6 @@ const Header = ({ isAuthenticated, logout }) => {
             <LinkContainer to="/books/new">
               <Nav.Link href="">New Summaries</Nav.Link>
             </LinkContainer>
-          </Nav>
-          <Nav
-            className="align-items-center"
-            style={{ maxWidth: "fit-content" }}
-          >
-            {isAuthenticated ? renderUser() : renderVisitingUser()}
           </Nav>
         </Navbar.Collapse>
       </Container>
