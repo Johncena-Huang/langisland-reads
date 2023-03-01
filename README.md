@@ -3,7 +3,7 @@
 <p align="center"><img src="https://github.com/Johncena-Huang/langisland-reads/blob/master/demo/logo.jpg" width="100"/></p>
 <div align="center">
 The MERN(MongoDB, Express, React, Node) application where users can share their book reflections, import notes from <strong>notion</strong> and interact with other users via the comment system.<br>
-<a href="https://langisland-reads.herokuapp.com/">Explore the website</a>
+<a href="https://langisland-reads.onrender.com/">Explore the website</a>
 </div>
 
 ### Test account
